@@ -17,14 +17,14 @@
 
 behaviour_info(callbacks) ->
     [{init,1},
-     {head, 3},
-     {get, 3},
-     {delete, 3},
-     {options, 4},
-     {post, 4},
-     {put, 4},
-     {trace, 4},
-     {other_methods, 4},
+     {head, 4},
+     {get, 4},
+     {delete, 4},
+     {options, 5},
+     {post, 5},
+     {put, 5},
+     {trace, 5},
+     {other_methods, 5},
      {terminate, 1}];
 behaviour_info(_Other) ->
     undefined.
